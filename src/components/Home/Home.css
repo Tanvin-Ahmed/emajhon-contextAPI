@@ -1,0 +1,16 @@
+.products-container{
+    width: 70%;
+    border-right: 2px solid lightgray;
+}
+@media(max-width: 900px) {
+    .body{
+        flex-direction: column-reverse;
+    }
+    .products-container{
+        width: 100%;
+        border: none;
+        margin-top: 2rem;
+        border-top: 2px solid lightgray;
+        padding-top: 1rem;
+    }
+}

@@ -1,0 +1,10 @@
+.product-body{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 492px) {
+    .product-body{
+        display: block;
+        margin: 0 auto;
+    }
+}
